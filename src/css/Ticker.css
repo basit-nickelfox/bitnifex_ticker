@@ -1,0 +1,36 @@
+
+.parent{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #1B262D;
+  color:#FFFFFF;
+  width: 400px;
+  padding:10px 10px;
+}
+.item1 {
+  grid-row: 1 / 4;
+  align-self: center;
+}
+
+.row1{
+  font-weight: 400;
+  font-size: 20px;
+}
+.item5{
+  color: #03CA9B;
+}
+.item4, .item5, .item6, .item7 {
+  font-size: 15px;
+}
+.span{
+  opacity: .75;
+}
+/* .fa{
+  color: #FFFFFF;
+} */
